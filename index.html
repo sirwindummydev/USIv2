@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USI – Utility Solutions Industries</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#" class="nav-logo">
+          <img
+            src="assets/usi_white2.png"
+            alt="USI Logo"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'flex';
+            "
+          />
+          <span class="logo-fallback"><span class="logo-icon">⚙</span>USI</span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#join-strategy">Join Strategy</a>
+          <a href="#careers">Careers</a>
+          <a href="#contact">Contacts</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <h1>Utility Solutions Industries</h1>
+        <p>
+          For over 30 years, USI has been a trusted partner of utility
+          providers, delivering integrated software, hardware, and field
+          services that improve efficiency, accuracy, and customer satisfaction.
+        </p>
+        <a href="#about" class="btn btn-primary">EXPLORE MORE</a>
+      </div>
+    </section>
+
+    <!-- ===== VISION & MISSION ===== -->
+    <section class="vision-mission" id="about">
+      <div class="container vm-grid">
+        <div class="vm-text">
+          <div class="vm-block">
+            <h2>VISION</h2>
+            <p>
+              To be the leading provider of utility solutions — the most
+              integrated, most adaptive, innovative and reliable company in
+              combining technology, data, and field services in the industry.
+            </p>
+          </div>
+          <div class="vm-block">
+            <h2>MISSION</h2>
+            <p>
+              To enable comprehensive technology-driven utility management
+              solutions for providers and partners to achieve operational
+              excellence for system automation.
+            </p>
+            <p>
+              We are committed to fostering innovation, ensuring community
+              sustainability, and providing solutions that respond to the
+              evolving needs of the utility sector.
+            </p>
+          </div>
+        </div>
+        <div class="vm-image">
+          <img
+            src="assets/team.jpg"
+            alt="Team collaboration"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE USI ===== -->
+    <section class="why-usi">
+      <div class="container why-grid">
+        <div class="why-image">
+          <img
+            src="assets/why-usi.jpg"
+            alt="Why choose USI"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+        <div class="why-content">
+          <h2>Why Choose USI?</h2>
+          <p>
+            We are a solution-driven company committed to using our proven
+            processes that help improve operations, enhance service quality, and
+            support your growth.
+          </p>
+          <ul class="why-list">
+            <li>
+              <span class="why-icon">✔</span>
+              <div>
+                <strong>Proven Expertise</strong>
+                <p>Over 30 years of experience across the utility industry.</p>
+              </div>
+            </li>
+            <li>
+              <span class="why-icon">✔</span>
+              <div>
+                <strong>Tailored Solutions</strong>
+                <p>
+                  Customized approaches designed to fit organizational needs.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="why-icon">✔</span>
+              <div>
+                <strong>Technology-led Integration</strong>
+                <p>
+                  Seamless integration of advanced systems and tools for better
+                  operations.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span class="why-icon">✔</span>
+              <div>
+                <strong>Client-Centric Approach</strong>
+                <p>
+                  We collaborate closely with clients to drive measurable
+                  results and lasting impact.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CORE SERVICES ===== -->
+    <section class="core-services" id="services">
+      <div class="container services-grid">
+        <div class="services-content">
+          <h2>Core Services</h2>
+          <h3>Customized Solutions</h3>
+          <p>
+            Tailored utility solutions designed to meet the specific
+            operational, technical, and service requirements of each client.
+          </p>
+          <div class="services-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="services-image">
+          <img
+            src="assets/services.jpg"
+            alt="Core Services"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOLUTIONS CAROUSEL ===== -->
+    <section class="solutions-section" id="solutions">
+      <div class="container">
+        <h2>Solutions</h2>
+        <div class="carousel">
+          <button class="carousel-btn prev" id="prevBtn" aria-label="Previous">
+            &#8249;
+          </button>
+          <div class="carousel-track-wrapper">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-item">
+                <div class="solution-card">
+                  <img
+                    src="assets/fyeld-logo.png"
+                    alt="FYeld++"
+                    onerror="
+                      this.style.display = 'none';
+                      this.nextElementSibling.style.display = 'block';
+                    "
+                  />
+                  <span class="card-fallback">FYeld++</span>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="solution-card featured">
+                  <img
+                    src="assets/ums-logo.png"
+                    alt="UMS"
+                    onerror="
+                      this.style.display = 'none';
+                      this.nextElementSibling.style.display = 'block';
+                    "
+                  />
+                  <span class="card-fallback">UMS</span>
+                  <p class="card-label">UTILITY MANAGEMENT SYSTEM</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="solution-card">
+                  <img
+                    src="assets/pocket-logo.png"
+                    alt="PocketBiz"
+                    onerror="
+                      this.style.display = 'none';
+                      this.nextElementSibling.style.display = 'block';
+                    "
+                  />
+                  <span class="card-fallback">PocketBiz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-btn next" id="nextBtn" aria-label="Next">
+            &#8250;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AREAS OF OPERATION ===== -->
+    <section class="areas" id="join-strategy">
+      <div class="container areas-grid">
+        <div class="areas-content">
+          <h2>Areas of Operation</h2>
+          <p>
+            USI operates across key regions nationwide, partnering with utility
+            providers to deliver reliable software, hardware, and field
+            services. Our wide operational reach allows us to support clients
+            with consistent service quality, localized expertise, and responsive
+            on-the-ground operations — ensuring efficient utility management
+            wherever our partners are located.
+          </p>
+          <a href="#contact" class="btn btn-outline">SHOW MAP</a>
+        </div>
+        <div class="areas-image">
+          <img
+            src="assets/map.png"
+            alt="Areas of operation"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CLIENT PORTFOLIO ===== -->
+    <section class="clients">
+      <div class="container">
+        <h2>Client Portfolio</h2>
+        <div class="clients-grid">
+          <div class="client-logo">
+            <img
+              src="assets/meralco.png"
+              alt="Meralco"
+              onerror="this.parentElement.innerHTML = '<span>Meralco</span>'"
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/maynilad.jpg"
+              alt="Maynilad"
+              onerror="this.parentElement.innerHTML = '<span>Maynilad</span>'"
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/san-miguel.png"
+              alt="San Miguel Corporation"
+              onerror="this.parentElement.innerHTML = '<span>San Miguel</span>'"
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/prima-water.png"
+              alt="Prima Water"
+              onerror="
+                this.parentElement.innerHTML = '<span>Prime Water</span>'
+              "
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/manila-water.png"
+              alt="Manila Water"
+              onerror="
+                this.parentElement.innerHTML = '<span>Manila Water</span>'
+              "
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/negros-power.png"
+              alt="Negros Power"
+              onerror="
+                this.parentElement.innerHTML = '<span>Negros Power</span>'
+              "
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/more-power.png"
+              alt="More Power"
+              onerror="this.parentElement.innerHTML = '<span>MOEE Power</span>'"
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/bohol-light.png"
+              alt="Bohol Light"
+              onerror="
+                this.parentElement.innerHTML = '<span>Bohol Light</span>'
+              "
+            />
+          </div>
+          <div class="client-logo">
+            <img
+              src="assets/camiguin.png"
+              alt="Camiguin"
+              onerror="this.parentElement.innerHTML = '<span>Camiguin</span>'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section class="certifications">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <img
+              src="assets/cert1.png"
+              alt="Certificate 1"
+              onerror="
+                this.parentElement.classList.add('cert-placeholder');
+                this.style.display = 'none';
+              "
+            /><span class="cert-label">ISO Certified</span>
+          </div>
+          <div class="cert-card">
+            <img
+              src="assets/cert2.png"
+              alt="Certificate 2"
+              onerror="
+                this.parentElement.classList.add('cert-placeholder');
+                this.style.display = 'none';
+              "
+            /><span class="cert-label">DICT Accredited</span>
+          </div>
+          <div class="cert-card">
+            <img
+              src="assets/cert3.png"
+              alt="Certificate 3"
+              onerror="
+                this.parentElement.classList.add('cert-placeholder');
+                this.style.display = 'none';
+              "
+            /><span class="cert-label">DPO/DPS</span>
+          </div>
+          <div class="cert-card">
+            <img
+              src="assets/cert4.png"
+              alt="Certificate 4"
+              onerror="
+                this.parentElement.classList.add('cert-placeholder');
+                this.style.display = 'none';
+              "
+            /><span class="cert-label">SEC Registered</span>
+          </div>
+          <div class="cert-card">
+            <img
+              src="assets/cert5.png"
+              alt="Certificate 5"
+              onerror="
+                this.parentElement.classList.add('cert-placeholder');
+                this.style.display = 'none';
+              "
+            /><span class="cert-label">DTI Accredited</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" id="contact">
+      <div class="container cta-grid">
+        <div class="cta-content">
+          <h2>Ready to Improve Your Utility Operations?</h2>
+          <p>
+            Let USI help you streamline utility systems, reduce operational
+            challenges, and enhance service delivery through advanced
+            technology, efficient field services, and customized solutions built
+            to support long-term growth.
+          </p>
+          <a href="mailto:support@usiphils.com" class="btn btn-primary"
+            >Talk to us!</a
+          >
+        </div>
+        <div class="cta-image">
+          <img
+            src="assets/cta.jpg"
+            alt="Improve utility operations"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOIN OUR TEAM ===== -->
+    <section class="join-team" id="careers">
+      <div class="container join-inner">
+        <h2>Join our team!</h2>
+        <form class="join-form" onsubmit="handleJoin(event)">
+          <input
+            type="email"
+            placeholder="Email Address"
+            required
+            aria-label="Email address"
+          />
+          <button type="submit" class="btn btn-primary">Apply</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-logo">
+          <img
+            src="assets/usi_white2.png"
+            alt="USI Logo"
+            onerror="
+              this.style.display = 'none';
+              this.nextElementSibling.style.display = 'flex';
+            "
+          />
+          <span class="logo-fallback footer-logo-fallback"
+            ><span class="logo-icon">⚙</span>USI</span
+          >
+        </div>
+        <div class="footer-contact">
+          <p>📞 +63 967 290 3424</p>
+          <p>✉️ support@usiphils.com</p>
+          <p>📘 FBCom #Iloilongas City</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Utility Solutions Industries. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
